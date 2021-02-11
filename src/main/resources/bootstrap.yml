@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: servicio-codigo-postal
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://35.192.201.74:3306/postal
+    username: root
+    password: Co0lgu566g@2021
+  jpa:
+    hibernate:
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ddl-auto: update
+  ##cloud:    ##gcp:      ##sql:        ##database-name: postal
+        ##instance-connection-name: microserviciocp:us-central1:basemicroserviciocp
+logging:
+  level:
+    '[com.casa.gus.controller.RelacioncpController]': info
+    '[org.hibernate]': info
+  file:
+    name: logs/CodigoPostal.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+server:
+  port: 9999

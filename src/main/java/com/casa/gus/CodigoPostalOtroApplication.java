@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CodigoPostalApplication {
+public class CodigoPostalOtroApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CodigoPostalApplication.class, args);
+		SpringApplication.run(CodigoPostalOtroApplication.class, args);
 	}
 
 }

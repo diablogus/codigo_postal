@@ -1,0 +1,90 @@
+2021-02-11 21:01:03,581 INFO  [main] com.casa.gus.CodigoPostalOtroApplication : No active profile set, falling back to default profiles: default
+2021-02-11 21:01:04,011 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-11 21:01:04,056 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2021-02-11 21:01:04,191 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=b4ffcaf8-e56d-33eb-be3e-032ea88e0498
+2021-02-11 21:01:04,482 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2021-02-11 21:01:04,492 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-02-11 21:01:04,492 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-11 21:01:04,588 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-02-11 21:01:04,588 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 994 ms
+2021-02-11 21:01:04,744 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-11 21:01:04,790 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-11 21:01:04,910 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-11 21:01:05,002 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2021-02-11 21:01:06,050 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2021-02-11 21:01:06,077 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-02-11 21:01:06,781 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-11 21:01:06,877 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-11 21:01:07,236 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-11 21:01:07,327 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-11 21:01:08,101 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-11 21:01:08,648 INFO  [main] com.casa.gus.CodigoPostalOtroApplication : Started CodigoPostalOtroApplication in 6.802 seconds (JVM running for 7.81)
+2021-02-11 21:01:20,171 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-11 21:01:20,172 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2021-02-11 21:01:20,174 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 2 ms
+2021-02-11 21:01:20,210 INFO  [http-nio-8080-exec-1] com.casa.gus.controller.RelacioncpController : función getListaCP -> Código postal:08100
+2021-02-11 21:01:20,520 INFO  [http-nio-8080-exec-1] com.casa.gus.utilities.Utilities : Relacioncp [idRelacioncp=728, cAsentaCpcons=1244, cCp=, cCveCiudad=8, cEstad=9, cMnpio=006, cOficina=8231, cTipoAsenta=09, dAsenta=Agrícola Pantitlán, dCiudad=Ciudad de México, dCodigo=08100, dCp=08231, dEstado=Ciudad de México, dMnpio=Iztacalco, dTipoAsenta=Colonia, dZona=Urbano]
+2021-02-11 21:05:31,572 INFO  [RMI TCP Connection(14)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-02-11 21:05:31,934 INFO  [RMI TCP Connection(14)-127.0.0.1] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2021-02-11 21:05:31,937 INFO  [RMI TCP Connection(14)-127.0.0.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-02-11 21:05:31,946 INFO  [RMI TCP Connection(14)-127.0.0.1] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-11 21:05:31,947 INFO  [RMI TCP Connection(14)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-11 21:05:31,950 INFO  [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2021-02-11 21:05:31,965 INFO  [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2021-02-11 21:05:40,379 INFO  [main] com.casa.gus.CodigoPostalOtroApplication : No active profile set, falling back to default profiles: default
+2021-02-11 21:05:40,816 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-11 21:05:40,863 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2021-02-11 21:05:41,018 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=99fa4df3-f823-34e0-a980-3f46f0b0ea17
+2021-02-11 21:05:41,065 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$76d0994d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-11 21:05:41,107 INFO  [main] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-02-11 21:05:41,344 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2021-02-11 21:05:41,354 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-02-11 21:05:41,354 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-11 21:05:41,454 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-02-11 21:05:41,454 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1061 ms
+2021-02-11 21:05:41,618 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-11 21:05:41,664 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-11 21:05:41,785 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-11 21:05:41,880 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2021-02-11 21:05:42,709 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2021-02-11 21:05:42,736 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-02-11 21:05:43,466 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-11 21:05:43,548 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-11 21:05:43,882 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-11 21:05:43,964 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-11 21:05:44,752 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-11 21:05:45,303 INFO  [main] com.casa.gus.CodigoPostalOtroApplication : Started CodigoPostalOtroApplication in 6.676 seconds (JVM running for 7.703)
+2021-02-11 21:10:32,454 INFO  [RMI TCP Connection(14)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-02-11 21:10:32,838 INFO  [RMI TCP Connection(14)-127.0.0.1] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2021-02-11 21:10:32,853 INFO  [RMI TCP Connection(14)-127.0.0.1] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-11 21:10:32,854 INFO  [RMI TCP Connection(14)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-11 21:10:32,858 INFO  [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2021-02-11 21:10:32,873 INFO  [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2021-02-11 21:10:41,858 INFO  [main] com.casa.gus.CodigoPostalOtroApplication : No active profile set, falling back to default profiles: default
+2021-02-11 21:10:42,563 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-11 21:10:42,609 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2021-02-11 21:10:42,777 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=03cef688-5498-3173-8971-5fd020353654
+2021-02-11 21:10:42,826 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$1f5ac5ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-11 21:10:42,892 INFO  [main] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-02-11 21:10:43,130 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2021-02-11 21:10:43,139 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-02-11 21:10:43,140 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-11 21:10:43,250 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-02-11 21:10:43,250 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1378 ms
+2021-02-11 21:10:43,423 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-11 21:10:43,472 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-11 21:10:43,599 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-11 21:10:43,697 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2021-02-11 21:10:44,544 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2021-02-11 21:10:44,578 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-02-11 21:10:45,287 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-11 21:10:45,369 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-11 21:10:45,870 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-11 21:10:46,048 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-11 21:10:46,832 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-11 21:10:47,554 INFO  [main] com.casa.gus.CodigoPostalOtroApplication : Started CodigoPostalOtroApplication in 7.486 seconds (JVM running for 8.577)
+2021-02-11 21:10:56,141 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-11 21:10:56,143 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2021-02-11 21:10:56,145 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 2 ms
+2021-02-11 21:11:36,460 INFO  [http-nio-8080-exec-2] com.casa.gus.controller.RelacioncpController : función getListaCP -> Código postal:08100
+2021-02-11 21:11:36,772 INFO  [http-nio-8080-exec-2] com.casa.gus.utilities.Utilities : Relacioncp [idRelacioncp=728, cAsentaCpcons=1244, cCp=, cCveCiudad=8, cEstad=9, cMnpio=006, cOficina=8231, cTipoAsenta=09, dAsenta=Agrícola Pantitlán, dCiudad=Ciudad de México, dCodigo=08100, dCp=08231, dEstado=Ciudad de México, dMnpio=Iztacalco, dTipoAsenta=Colonia, dZona=Urbano]

@@ -12,8 +12,6 @@ spring:
         implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: update
-  ##cloud:    ##gcp:      ##sql:        ##database-name: postal
-        ##instance-connection-name: microserviciocp:us-central1:basemicroserviciocp
 logging:
   level:
     '[com.casa.gus.controller.RelacioncpController]': info
@@ -23,5 +21,3 @@ logging:
   pattern:
     console: "%d %-5level %logger : %msg%n"
     file: "%d %-5level [%thread] %logger : %msg%n"
-server:
-  port: 9999

@@ -1,16 +1,0 @@
-spring:
-  application:
-    name: servicio-codigo-postal
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    #url: jdbc:mysql://35.192.201.74:3306/postal
-    username: root
-    password: Co0lgu566g@2021
-  jpa:
-    hibernate:
-      naming:
-        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-      ddl-auto: none
-    database: mysql
-    database-platform: org.hibernate.dialect.MySQL5Dialect  cloud:    gcp:      sql:        database-name: postal        instance-connection-name: microserviciocp:us-central1:basemicroserviciocp
